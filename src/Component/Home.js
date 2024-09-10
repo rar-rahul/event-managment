@@ -26,7 +26,7 @@ const Home = () => {
   return (
     <div>
       <div className="container mx-auto">
-        <h1 className="text-3xl font-bold text-center my-8">Event List</h1>
+        <h1 className="text-3xl font-bold text-center my-8">Mock List</h1>
         <Suspense fallback={<div className="text-center">Loading...</div>}>
           <EventList events={mockevent} />
         </Suspense>

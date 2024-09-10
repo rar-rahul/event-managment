@@ -4,7 +4,6 @@ import Navbar from './Component/Navbar';
 import Form from './Component/Form';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import { ContextProvider } from './Context/ContextProvider';
-import { useContext } from 'react';
 import Signup from './Component/Signup';
 import Login from './Component/Login';
 import Profile from './Component/Profile';
